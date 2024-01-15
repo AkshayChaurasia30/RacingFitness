@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragmentContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/payment_img"
+    android:clickable="true"
+    tools:context=".fragments.FeeFragment">
+
+    <!-- Submit Fee Button -->
+
+    <TextView
+        android:id="@+id/feeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/hello_blank_fragment"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/submitFeeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:text="Submit Fee"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="@+id/submit_fee_Img"
+        app:layout_constraintTop_toBottomOf="@+id/submit_fee_proof_tv" />
+
+    <ImageView
+        android:id="@+id/qr_imgView"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_marginTop="90dp"
+        android:padding="2dp"
+        android:src="@drawable/qr_code"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/feeTextView" />
+
+    <ImageView
+        android:id="@+id/submit_fee_Img"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="52dp"
+        android:autofillHints="Upload ScreenShot of Payment"
+        android:src="@drawable/payment_receipt"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/submit_fee_proof_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Submit Payment Receipt For Confirmation"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/submit_fee_Img"
+        app:layout_constraintStart_toStartOf="@+id/submit_fee_Img"
+        app:layout_constraintTop_toBottomOf="@+id/submit_fee_Img" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Tution Fee 2000₹"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="@+id/qr_imgView"
+        app:layout_constraintTop_toBottomOf="@+id/qr_imgView" />
+
+    <!-- Additional UI elements can be added as needed -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

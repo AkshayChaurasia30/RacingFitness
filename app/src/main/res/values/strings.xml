@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">RacingFitness</string>
+    <string name="SaveRecord">Save</string>
+    <string name="View">View Attendance</string>
+    <string name="title_activity_athelete_details">Athelete_Details</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_athlete_details">AthleteDetailsActivity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Scan Below QR Code for Payment</string>
+    <string name="mark_present">Mark Present</string>
+    <string name="password_edt">Password</string>
+    <string name="email_edt">Email</string>
+    <string name="sign_up_btn">Sign-up</string>
+    <string name="sign_in_btn">Sign-in</string>
+    <string name="club_tv">𝐑𝐚𝐜𝐢𝐧𝐠 𝐅𝐢𝐭𝐧𝐞𝐬𝐬 𝐂𝐥𝐮𝐛</string>
+    <string name="first_name_edt">First Name</string>
+    <string name="last_name_edt">Last Name</string>
+    <string name="dob_edt">DOB</string>
+    <string name="athlete_details_edt">Personal Details</string>
+    <string name="address_edt">Address</string>
+    <string name="event_edt">Event</string>
+    <string name="start_date_edt">Start Date</string>
+    <string name="end_date_edt">End Date</string>
+    <string name="generate_report_btn">Generate Report</string>
+    <string name="back_btn">Back</string>
+    <string name="attendance_report_tv">Attendance Report</string>
+    <string name="report_card_tv">Report Card</string>
+    <string name="name_edt">Name</string>
+    <string name="already_have_an_account_tv">Already Have An Account</string>
+    <string name="sign_up_page_tv">Sign-Up Page</string>
+    <string name="confirm_password_edt">Confirm Password</string>
+    <string name="item_name">Name</string>
+    <string name="item_status">Status</string>
+    <string name="calender_tv">Calender</string>
+</resources>

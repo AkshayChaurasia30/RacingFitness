@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "577413716717",
+    "firebase_url": "https://attendanceapp-5d35d-default-rtdb.firebaseio.com",
+    "project_id": "attendanceapp-5d35d",
+    "storage_bucket": "attendanceapp-5d35d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:577413716717:android:f8c29602b9ebce7f70cae4",
+        "android_client_info": {
+          "package_name": "com.example.racingfitness"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "577413716717-1qf14osbvh80rrl3bf66ga5evt5ipspk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.racingfitness",
+            "certificate_hash": "0304dc473fc167a6e1defd74aa5dcf0f568a467e"
+          }
+        },
+        {
+          "client_id": "577413716717-4d2bvfsieuvkjf9mkpd1snu7f9h84n9h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0YAniK78eXvZ-bra00j_QNhdaC1qrSt0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "577413716717-4d2bvfsieuvkjf9mkpd1snu7f9h84n9h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

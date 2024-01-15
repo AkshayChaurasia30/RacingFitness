@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bg2"
+    tools:context=".ui.ReportActivity">
+
+    <EditText
+        android:id="@+id/startDateEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+    android:textColorHint="@color/white"
+        android:hint="@string/start_date_edt"
+        android:textSize="26sp"
+        android:inputType="date"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/endDateEditText" />
+
+    <EditText
+        android:id="@+id/endDateEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/startDateEditText"
+        android:layout_marginBottom="28dp"
+        android:hint="@string/end_date_edt"
+        android:textSize="26sp"
+        android:textColorHint="@color/white"
+        android:inputType="date"
+        app:layout_constraintBottom_toTopOf="@+id/back_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toEndOf="@+id/startDateEditText" />
+
+    <Button
+        android:id="@+id/generateReportButton"
+        android:layout_width="136dp"
+        android:layout_height="56dp"
+        android:layout_below="@id/endDateEditText"
+        android:layout_marginStart="56dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/generate_report_btn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/back_btn"
+        android:layout_width="136dp"
+        android:layout_height="56dp"
+        android:layout_below="@id/endDateEditText"
+        android:text="@string/back_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/generateReportButton"
+        app:layout_constraintTop_toTopOf="@+id/generateReportButton" />
+
+    <TextView
+        android:id="@+id/reportTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/generateReportButton"
+        android:layout_marginTop="44dp"
+        android:gravity="center"
+        android:textColorHint="@color/white"
+        android:hint="@string/attendance_report_tv"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/report_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:textSize="24sp"
+        android:inputType="text"
+        android:textColorHint="@color/white"
+        android:hint="@string/report_card_tv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.407"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reportTextView" />
+</androidx.constraintlayout.widget.ConstraintLayout>
